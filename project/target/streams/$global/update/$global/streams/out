@@ -5,13 +5,47 @@
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ransonware-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.11.2 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.11.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.eed3si9n#sbt-assembly;0.11.2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.eed3si9n#sbt-assembly;0.11.2[0m
+[0m[[0mdebug[0m] [0m		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/ivys/ivy.xml (0.11.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.11.2!ivy.xml(ivy.original) (1297ms)[0m
+[0m[[0mdebug[0m] [0m	found com.eed3si9n#sbt-assembly;0.11.2 in sbt-plugin-releases[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ransonware-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ransonware-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ransonware-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
@@ -1819,6 +1853,16 @@
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [compile-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ransonware-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ransonware-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
@@ -3709,12 +3753,36 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [runtime-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ransonware-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [test-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ransonware-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ransonware-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ransonware-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
@@ -5956,6 +6024,12 @@
 [0m[[0mdebug[0m] [0mignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator[0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/jars/sbt-assembly.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/jars/sbt-assembly.jar ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/jars/sbt-assembly.jar[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/jars/sbt-assembly.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/jars/sbt-assembly.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.11.2!sbt-assembly.jar (1265ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.13.15!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.13.15!main.jar[0m
@@ -6009,7 +6083,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2017ms :: artifacts dl 50ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3912ms :: artifacts dl 1311ms[0m
 [0m[[0mdebug[0m] [0m	report for default#ransonware-build;0.1-SNAPSHOT compile produced in C:\Users\quarl\Documents\GitHub\ransonware\project\target\resolution-cache\reports\default-ransonware-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ransonware-build;0.1-SNAPSHOT runtime produced in C:\Users\quarl\Documents\GitHub\ransonware\project\target\resolution-cache\reports\default-ransonware-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ransonware-build;0.1-SNAPSHOT test produced in C:\Users\quarl\Documents\GitHub\ransonware\project\target\resolution-cache\reports\default-ransonware-build-test.xml[0m
@@ -6023,5 +6097,5 @@
 [0m[[0mdebug[0m] [0m	report for default#ransonware-build;0.1-SNAPSHOT docs produced in C:\Users\quarl\Documents\GitHub\ransonware\project\target\resolution-cache\reports\default-ransonware-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ransonware-build;0.1-SNAPSHOT pom produced in C:\Users\quarl\Documents\GitHub\ransonware\project\target\resolution-cache\reports\default-ransonware-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ransonware-build;0.1-SNAPSHOT scala-tool produced in C:\Users\quarl\Documents\GitHub\ransonware\project\target\resolution-cache\reports\default-ransonware-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2017ms resolve - 50ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (3912ms resolve - 1311ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

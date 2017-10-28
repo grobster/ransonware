@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mMain Scala API documentation to C:\Users\quarl\Documents\GitHub\ransonware\target\scala-2.12\api...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.12.3[0m
+[0m[[0mdebug[0m] [0mCalling Scaladoc with arguments:[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	C:\Users\quarl\Documents\GitHub\ransonware\target\scala-2.12\api[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre1.8.0_141\lib\resources.jar;C:\Program Files\Java\jre1.8.0_141\lib\rt.jar;C:\Program Files\Java\jre1.8.0_141\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_141\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_141\lib\jce.jar;C:\Program Files\Java\jre1.8.0_141\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_141\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_141\classes;C:\Users\quarl\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	dummy_c9dc0b57[0m
+[0m[[0mdebug[0m] [0m	C:\Users\quarl\Documents\GitHub\ransonware\src\main\scala\Ransomware.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\quarl\Documents\GitHub\ransonware\src\main\scala\Zebra.scala[0m
+[0m[[0minfo[0m] [0mMain Scala API documentation successful.[0m

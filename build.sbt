@@ -1,3 +1,7 @@
+import AssemblyKeys._
+
+assemblySettings
+
 name := "Fake Ransomware"
 
 organization := "org.grobster"
