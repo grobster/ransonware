@@ -4,17 +4,17 @@
 [0m[[0minfo[0m] [0mMerging files...[0m
 [0m[[33mwarn[0m] [0mMerging 'META-INF\MANIFEST.MF' with strategy 'discard'[0m
 [0m[[33mwarn[0m] [0mStrategy 'discard' was applied to a file[0m
-[0m[[0minfo[0m] [0mSHA-1: 5beedc8dc67a0deaedf611b6aaabdf9742465add[0m
-[0m[[0minfo[0m] [0mPackaging C:\Users\quarl\Documents\GitHub\ransonware\target\scala-2.12\Fake Ransomware-assembly-0.0.1.jar ...[0m
+[0m[[0minfo[0m] [0mSHA-1: 93902cc1024a419a1a8a463f8c578bf3f8d8a23d[0m
+[0m[[0minfo[0m] [0mPackaging C:\Users\quarl\Documents\GitHub\ransonware\target\scala-2.12\Fake Ransomware-assembly-0.0.2.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	fake\AnyRansomware$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\quarl\Documents\GitHub\ransonware\target\streams\$global\assemblyOption\$global\streams\assembly\944cee17929821b80e7960907850f7fa592e96f4_dir\fake\AnyRansomware$.class[0m
+[0m[[0mdebug[0m] [0m	fake\AnyRansomware.class[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\quarl\Documents\GitHub\ransonware\target\streams\$global\assemblyOption\$global\streams\assembly\944cee17929821b80e7960907850f7fa592e96f4_dir\fake\AnyRansomware.class[0m
 [0m[[0mdebug[0m] [0m	fake\FakeRansomware$.class[0m
 [0m[[0mdebug[0m] [0m	  C:\Users\quarl\Documents\GitHub\ransonware\target\streams\$global\assemblyOption\$global\streams\assembly\944cee17929821b80e7960907850f7fa592e96f4_dir\fake\FakeRansomware$.class[0m
 [0m[[0mdebug[0m] [0m	fake\FakeRansomware.class[0m
 [0m[[0mdebug[0m] [0m	  C:\Users\quarl\Documents\GitHub\ransonware\target\streams\$global\assemblyOption\$global\streams\assembly\944cee17929821b80e7960907850f7fa592e96f4_dir\fake\FakeRansomware.class[0m
-[0m[[0mdebug[0m] [0m	fake\Zebra$.class[0m
-[0m[[0mdebug[0m] [0m	  C:\Users\quarl\Documents\GitHub\ransonware\target\streams\$global\assemblyOption\$global\streams\assembly\944cee17929821b80e7960907850f7fa592e96f4_dir\fake\Zebra$.class[0m
-[0m[[0mdebug[0m] [0m	fake\Zebra.class[0m
-[0m[[0mdebug[0m] [0m	  C:\Users\quarl\Documents\GitHub\ransonware\target\streams\$global\assemblyOption\$global\streams\assembly\944cee17929821b80e7960907850f7fa592e96f4_dir\fake\Zebra.class[0m
 [0m[[0mdebug[0m] [0m	library.properties[0m
 [0m[[0mdebug[0m] [0m	  C:\Users\quarl\Documents\GitHub\ransonware\target\streams\$global\assemblyOption\$global\streams\assembly\ea5ead96a5aa6933a447c142aa901707b6691e04_f2e496f21af2d80b48e0a61773f84c3a76a0d06f\library.properties[0m
 [0m[[0mdebug[0m] [0m	rootdoc.txt[0m

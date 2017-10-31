@@ -54,3 +54,11 @@ compile
 doc
 assembly
 exit
+compile
+run
+clean
+compile
+reload
+compile
+assembly
+exit
